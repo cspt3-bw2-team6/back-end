@@ -1,0 +1,21 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cspt3-bw2-team6/back-end.git",
+  "author": "<tom@edgegluer.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "cross-env DB_ENV=testing jest --verbose --watch",
+    "server": "nodemon",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.4"
+  }
+}
